@@ -1,0 +1,132 @@
+
+/* overall container */
+#container{
+    height: 500px;
+    width: 1000px;
+    background: rgba(42, 140, 153, 0.815);
+    position: relative;
+    margin: auto;
+    
+    
+}
+
+/* The design of the card container */
+#card-container{
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 100px;
+    width: 30%;
+    height: 70%;
+    border-radius: 3%;
+    position: relative;
+    background: linear-gradient(to bottom, rgba(152, 209, 216, 0.815)  0%, rgba(152, 209, 216, 0.815) 30%, white 30%, white 100%);
+    
+    
+   
+}
+
+
+/* The design of the profile picture */
+#profile-pix{
+    height: 100px;
+    width: 100px;
+    border: 5px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 32%;
+    box-sizing: border-box;
+    
+
+}
+
+
+
+
+/* The deisgn for personal information (name, age and location) */
+#details{
+    height: auto;
+    width: 70%;
+    display: flex; 
+    justify-content: space-between;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 45%;
+
+}
+
+
+#name-container{ 
+    width: 50%;
+    font-weight: bold;
+    font-family: 'sans-serif';
+    font-size: 16px; 
+    
+    
+}
+
+#age-container{
+    height: auto;
+    width: 10%;
+    margin-right: 50px; 
+    font-size: 15px;
+}
+
+#location{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    font-size: 12px;
+}
+
+
+
+/* The deisgn for likes, retweet and photos */
+#counter-container{
+    height: 20%;
+    width: 100%;
+    border-top: 1px dotted rgba(206, 189, 189, 0.801);
+    position: absolute;
+    top: 80%; 
+    display: flex;  
+    justify-content: space-around;
+    box-sizing: border-box; 
+    
+
+}
+
+#like-container{
+    width: 20%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#follow-container{
+    width: 20%;
+    height: auto;
+    text-align: center;
+}
+
+#photo-container{
+    width: 20%;
+    height: auto;
+    text-align: center;
+
+    
+
+}
+
+#number{
+    font-weight: 900;
+    margin-top: 7px;
+    
+}
+
+
+
+
+
